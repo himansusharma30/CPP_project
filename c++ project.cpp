@@ -63,8 +63,7 @@ public:
     {
         return(netamt);
     }
-} 
-amt;
+}amt;
 void amount::add()
 {
 	cout<<"\n\n\n\t\t\tEnter the 4 digit Authorization pin: ";

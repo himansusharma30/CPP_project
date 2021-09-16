@@ -38,13 +38,13 @@ public:
         cout<<"\n\n\tExp. Date of Batch: ";
         cout<<d.mm<<"-"<<d.dd<<"-"<<d.yy;
     }
-    void report()
+    /*void report()
 	{
 		
 	cout<<"\t\t\t"<<medino<<"\t";
         puts(name);
         cout<<retno();
-    }
+    }*/
     int retno()
     {
         return(medino);
@@ -56,7 +56,7 @@ class amount: public medi
 public:
     void add();
     void show();
-    void report();
+   // void report();
     void calculate();
     void pay();
     float retnetamt()
@@ -91,7 +91,7 @@ void amount::show()
  system("pause");
    
 }
-void amount::report()
+/*void amount::report()
 {   medi::report();
     cout<<"\t\t "<<price;
     cout<<"\t "<<qty;
@@ -107,7 +107,7 @@ void amount::report()
         cout<<"QUANTITY";
         cout<<"NET AMOUNT";
     }
-}
+}*/
 void amount::pay()
 {
     show();
